@@ -1,73 +1,68 @@
-# 👋 Hola, soy Linda Catalina
+# Hola, soy Linda Catalina 👋
 
-🌱 Estudiante de Ingeniería Ambiental enfocada en el análisis de datos ambientales, modelación climática y sistemas predictivos aplicados a energía, hidrología y riesgos ambientales.
+**Estudiante de Ingeniería Ambiental · Datos ambientales · Hidrología · SIG**
 
-Actualmente estoy construyendo mi camino profesional hacia el desarrollo de soluciones basadas en datos para apoyar la toma de decisiones en sectores como energía, agua y clima.
+Estudio en la Universidad Nacional de Colombia, sede Medellín. Combino mi formación ambiental con Python y herramientas geográficas para analizar el clima, el agua y el territorio, y convertir los resultados en información útil para tomar decisiones.
 
----
+Busco una práctica académica donde pueda aportar al análisis de datos y a la gestión ambiental, con especial interés en energía, recursos hídricos e infraestructura.
 
-## 🎯 Enfoque profesional
+## Proyectos principales
 
-Me interesa desarrollarme en áreas como:
+Desarrollé estos cuatro proyectos académicos en un equipo de dos personas:
 
-- 🌦️ Climate & Hydroclimate Modeling  
-- ⚡ Energy Forecasting & Risk Analysis  
-- 🤖 Machine Learning aplicado a sistemas ambientales  
-- 📊 Data Science & Environmental Data Analysis  
-- 🛰️ Remote Sensing & Earth Observation  
+### 🌊 [Simulación hidrológica y análisis geoespacial de una cuenca](https://github.com/CamiloBedoyaC/modelo-hidrologico)
 
-Mi objetivo es aportar valor a través de modelos predictivos, análisis de datos y herramientas tecnológicas que permitan anticipar riesgos y optimizar procesos en el contexto del cambio climático.
+- Desarrollamos en Python un modelo para simular la respuesta de una cuenca a la lluvia, a partir de **12.784 registros diarios de CAMELS-US**.
+- Calibramos y validamos el modelo, elaboramos mapas interactivos y automatizamos el balance hídrico, las métricas y los reportes.
 
----
+### 🌧️ [Integración y control de calidad de datos de precipitación](https://github.com/LindaCatalina/siata-disdrometer-rainfall-microphysics)
 
-## 🚀 Proyectos principales (en desarrollo)
+- Procesamos **5,28 GB de observaciones de SIATA**, con **167,3 millones de partículas válidas**, e integramos información atmosférica de NOAA.
+- Organizamos el procesamiento por bloques para trabajar sin cargar todos los datos en memoria y aplicamos controles de calidad. Generamos tablas, gráficos y pruebas automatizadas para verificar los resultados.
 
-*(Actualmente en construcción como parte de mi portafolio profesional)*
+### 🌬️ [Evaluación del riesgo climático para la generación eólica en La Guajira](https://github.com/LindaCatalina/jemeiwaa-wind-energy-climate-risk)
 
-🔹 Pronóstico de demanda energética usando series de tiempo + ML + visualización
+- Analizamos posibles cambios en la generación de una planta eólica virtual mediante datos de ERA5-Land y **12 modelos climáticos de CMIP6**, bajo tres escenarios futuros.
+- Comparamos escenarios y presentamos rangos de resultados para comunicar la incertidumbre y apoyar la interpretación del riesgo climático.
 
-🔹 Modelos de ML aplicados a calidad y operación de sistemas de tratamiento de agua
+### 🌎 [Integración y validación de series atmosféricas durante la MJO](https://github.com/CamiloBedoyaC/mjo-atmospheric-stability)
 
-🔹 Análisis de riesgo hidroclimático (sequías e inundaciones) con enfoque geoespacial
+- Estudiamos la estabilidad atmosférica durante las fases de la oscilación de Madden-Julian (MJO), con **33.096 registros diarios de Palau y Chuuk entre 1980 y 2025**.
+- Integramos y validamos las series en Python, calculamos sus promedios históricos y anomalías, y generamos tablas y visualizaciones interactivas para comparar las estaciones.
 
-🔹 Pipeline de datos + MLOps para sistemas ambientales y energéticos
+## Herramientas que utilizo
 
-🔹 Análisis geoespacial y visualización con herramientas GIS
+| Área | Herramientas |
+| --- | --- |
+| Programación y análisis de datos | Python · pandas · NumPy · xarray · SciPy |
+| Sistemas de información geográfica y cartografía | QGIS · Google Earth Engine · Cartopy · Leaflet |
+| Visualización | Matplotlib · Plotly |
+| Desarrollo y documentación | Git · GitHub · Jupyter · Visual Studio Code · LaTeX |
+| Ofimática | Excel |
 
-🔹 Aplicaciones de datos satelitales (NASA ARSET) en agua, incendios y energía
+## Formación complementaria
 
----
+- **Asignaturas de posgrado:** Analítica descriptiva y visualización de datos, Analítica predictiva, Producto de datos y Climatología.
+- **Curso realizado:** Geoanalítica: transforma datos en decisiones — Esri, 2026.
+- **Idiomas:** español nativo e inglés C1 — EF SET, 2024.
 
-## 📚 Formación y certificaciones (en progreso)
+## Formación y certificaciones (en progreso)
 
-Actualmente fortaleciendo mis habilidades en:
+Actualmente estoy fortaleciendo mis conocimientos en:
 
-- 🐍 Python para análisis de datos (CS50P – Harvard – en progreso)
-- 🗄️ SQL y manejo de bases de datos (CS50 SQL – Harvard)
-- 📊 Data Science y Machine Learning (Kaggle, Google ML Crash Course)
-- ⚙️ Data Engineering (DataTalks.Club, IBM Data Engineering)
-- 🌍 Análisis geoespacial (GeoPython, Esri MOOCs)
-- 🛰️ Teledetección y datos satelitales (NASA ARSET)
-- ☁️ Cloud y despliegue (AWS)
+- **Python para análisis de datos:** CS50P — Harvard.
+- **SQL y bases de datos:** CS50 SQL — Harvard.
+- **Ciencia de datos y aprendizaje automático:** Kaggle y Google ML Crash Course.
+- **Ingeniería de datos:** DataTalks.Club e IBM Data Engineering.
+- **Análisis geoespacial:** GeoPython y cursos MOOC de Esri.
+- **Teledetección y datos satelitales:** NASA ARSET.
+- **Computación en la nube y despliegue:** AWS.
 
----
+## Cómo trabajo
 
-## 💡 Sobre mí
+Cuido la calidad de la información, documento las decisiones y explico los resultados con sus limitaciones. Ante una dificultad, investigo, pruebo alternativas y busco apoyo cuando es necesario. Me gusta aprender herramientas nuevas, compartir conocimientos y construir soluciones en equipo.
 
-Me caracterizo por ser una persona curiosa, disciplinada y con una fuerte motivación por aprender constantemente.
+## Contacto
 
-Estoy construyendo este portafolio como evidencia de mi crecimiento técnico y mi compromiso con el desarrollo de soluciones reales para problemáticas ambientales.
-
-Creo firmemente en el poder de los datos para transformar la manera en que entendemos y gestionamos el medio ambiente.
-
----
-
-## 📫 Contacto
-
-- 📍 Medellín, Colombia  
-- 📧 licorrea@unal.edu.co ó linda8.catalina@gmail.com 
-- 💼 LinkedIn: 
-
----
-
-⭐ *Este portafolio está en constante construcción. Cada proyecto refleja mi proceso de aprendizaje y mi evolución como futura profesional en datos ambientales.*
+📍 Medellín, Colombia  
+📧 [licorrea@unal.edu.co](mailto:licorrea@unal.edu.co)
