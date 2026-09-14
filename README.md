@@ -66,3 +66,4 @@ Cuido la calidad de la información, documento las decisiones y explico los resu
 
 📍 Medellín, Colombia  
 📧 [licorrea@unal.edu.co](mailto:licorrea@unal.edu.co)
+📧 [linda8.catalina@gmail.com](mailto:linda8.catalina@gmail.com)
